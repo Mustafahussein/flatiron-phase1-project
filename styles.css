@@ -57,6 +57,13 @@ body {
     grid-template-columns: repeat(1, 1fr); /* Single column on mobile */
     gap: 20px;
   }
+
+  /* Styles for larger screens */
+@media (min-width: 600px) {
+    #pokemon-list {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+   }
+}
   
   li {
     display: flex;
