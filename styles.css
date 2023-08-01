@@ -64,6 +64,13 @@ body {
       grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
    }
 }
+
+/* Styles for even larger screens */
+@media (min-width: 900px) {
+  #pokemon-list {
+    grid-template-columns: repeat(4, 1fr); /* Four columns on even larger screens */
+  }
+}
   
   li {
     display: flex;
