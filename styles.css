@@ -19,6 +19,11 @@ body {
     margin-bottom: 20px;
     color: #007bff;
   }
+
+  h3 {
+    text-align: center;
+    color: #4b99ec;
+  }
   
   #how-to-use {
     text-align: center;
@@ -66,7 +71,7 @@ body {
   }
   
   li:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
   
   li img {
@@ -79,7 +84,7 @@ body {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    border: 2px solid #007bff;
+    border: 2px solid #a6c4e4;
     border-radius: 10px;
     background-color: #f9f9f9;
     color: #007bff;
