@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // API endpoint
+    // API Endpoint
     const apiUrl = 'https://pokeapi.co/api/v2/pokemon';
   
     // Event listeners
