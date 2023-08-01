@@ -6,7 +6,7 @@ body {
   }
   
   .container {
-    max-width: 400px;
+    max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
@@ -17,12 +17,16 @@ body {
     text-align: center;
   }
   
-  ul {
-    list-style-type: none;
-    padding: 0;
+  #pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
   }
   
   li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 5px;
     padding: 10px;
     border: 1px solid #ddd;
@@ -31,3 +35,7 @@ body {
     cursor: pointer;
   }
   
+  li img {
+    width: 80px;
+    height: 80px;
+  }  
