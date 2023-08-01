@@ -10,12 +10,14 @@ body {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
   
   h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #007bff;
   }
   
   #how-to-use {
@@ -28,35 +30,58 @@ body {
   #search-box-container {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
   
   #search-box {
     padding: 10px;
     width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
     outline: none;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  #search-box::placeholder {
+    color: #aaa;
   }
   
   #pokemon-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
   }
   
   li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
     background-color: #f9f9f9;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
   }
   
   li img {
     width: 80px;
     height: 80px;
+    margin-bottom: 10px;
   }
+  
+  #pokemon-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #007bff;
+  }
+  
