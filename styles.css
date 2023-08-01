@@ -85,3 +85,17 @@ body {
     color: #007bff;
   }
   
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #89898a;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }

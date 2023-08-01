@@ -1,3 +1,5 @@
+console.log('main.js connected');
+
 document.addEventListener('DOMContentLoaded', function() {
     // API endpoint
     const apiUrl = 'https://pokeapi.co/api/v2/pokemon';
@@ -61,4 +63,5 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching Pokémon info:', error));
     }
-  });  
+  });
+  
